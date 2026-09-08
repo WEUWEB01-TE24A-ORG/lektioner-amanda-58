@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Happy+Monkey&display=swap');
+body {
+    background-image: url(./bild/mohammad-ebesh-7kf_nwfM07k-unsplash.jpg);
+background-size: cover;
+}
+h1 {
+    font-family: "Cinzel Decorative", serif;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    margin-left: 380px;
+}
+h2 {
+    font-family: "Happy Monkey", system-ui;
+    color: #312727;
+    font-size: 30px;
+    margin-left: 380px;
+}
+p {
+    font-family: "Happy Monkey", system-ui;
+    color: #d71472;
+    font-size: 20px;
+    margin-left: 380px;
+    background-color: rgba(75, 100, 75, 0.376);
+    width: 660px;
+    padding: 30px;
+    border-radius: 30px;
+}
+a {}
