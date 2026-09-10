@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Viaoda+Libre&display=swap');
+
+body{}
+table{
+    background-color: rgb(11, 60, 184);
+}
+caption{
+    background-color: green;
+    background-image: url(bilder/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+    font-size: 46px;
+    padding: 20px;
+    font-family: "Viaoda Libre", serif;
+}
+tr{}
+th{
+    font-size: 26px;
+    padding: 10px;
+    font-family: "Cormorant", serif;
+}
+td{
+    font-size: 20px;
+    padding: 20px;
+    font-family: "Cormorant", serif;
+}
+img{
+    width: 300px; 
+}
