@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+    background-image: url(./bilder/savir-c-WZoDavml8kI-unsplash.jpg);
+    background-size: 60%;
+}
+h1 {
+    font-family: "Lato", sans-serif;
+    color: crimson;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 0 rgb(141, 36, 135);
+    margin-left: 400px;
+}
+h2 {
+    font-family: "Lato", sans-serif;
+    color: crimson;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 rgb(141, 36, 135);
+    margin-left: 400px;
+}
+p {
+    margin-left: 1000px;
+    margin-top: 300px;
+}
+a {
+    color: azure;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+    background-color: crimson;
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+}
