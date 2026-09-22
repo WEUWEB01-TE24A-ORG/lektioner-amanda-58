@@ -1,0 +1,18 @@
+
+body {
+    background-color: rgb(254, 248, 192);
+}
+h1 {
+    color: cornflowerblue;
+    font-size: 60px;
+    margin-left: 480px;
+}
+p {
+    color: rgb(253, 253, 253);
+    font-size: 16px;
+    margin-left: 420px;
+    background-color: rgba(0, 0, 0, 0.533);
+    width: 518px;
+    padding: 20px;
+    border-radius: 20px;
+}
