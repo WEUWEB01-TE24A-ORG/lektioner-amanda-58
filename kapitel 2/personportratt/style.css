@@ -2,17 +2,48 @@
 body {
     background-color: rgb(254, 248, 192);
 }
+
+
+
 h1 {
     color: cornflowerblue;
     font-size: 60px;
     margin-left: 480px;
 }
+
+img{
+background-image: url(Bilder/Hakan_Carlqvist_Circuit_Vallès_1978_crop2\ \(1\).jpg);
+margin-left: 448px;
+}
+
 p {
-    color: rgb(253, 253, 253);
+    color: ghostwhite;
     font-size: 16px;
     margin-left: 420px;
     background-color: rgba(0, 0, 0, 0.533);
     width: 518px;
     padding: 20px;
     border-radius: 20px;
+}
+
+table{
+    background-color: rgba(0, 0, 0, 0.475);
+}
+
+th{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.335);
+    margin-left: 200px;
+    padding: 30px;
+    color: cornflowerblue;
+    height: 10px;
+}
+
+td{
+    font-size: 16px;
+    margin-right: 400px;
+    color: ghostwhite;
+    padding: 10px;
+    height: 60px;
+    width: 200px;
 }
