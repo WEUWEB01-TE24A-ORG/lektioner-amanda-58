@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: darkseagreen;
+    background-image: url(./bilder/regencygirl123-leaves-6729056.jpg);
+    background-size: 700px;
+}
+
+div{
+    font-family: "Aldrich", sans-serif;
+    background-color: rgb(240, 128, 128);
+    width: 700px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding: 60px;
+    border: 6px dashed rgba(0, 0, 0, 0.845);
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+a{
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
