@@ -27,6 +27,12 @@ div.kontainer{
 
 h1{}
 
+div.introbox{
+    background-color: aquamarine;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
 /* box */
 div.box{
     background-color: dodgerblue;
