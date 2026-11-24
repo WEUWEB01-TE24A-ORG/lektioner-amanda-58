@@ -1,3 +1,9 @@
+--lavender-veil: #e5d9f2ff;
+--lavender-mist: #f5efffff;
+--periwinkle: #cdc1ffff;
+--soft-periwinkle: #a594f9ff;
+--medium-slate-blue: #7371fcff;
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -15,35 +21,83 @@ img {
 }
 
 body{
-    background-color: crimson;
+    background-color: #a594f9ff;;
 }
 
 /*kontainer*/
 div.kontainer{
-    width: 800px;
+    background-color: #cdc1ffff;
+    width: 1000px;
+    height: 1560px;
     margin-left: auto;
     margin-right: auto;
 }
 
-h1{}
-
-div.introbox{
-    background-color: aquamarine;
-    padding: 50px;
+h1{
+    text-align: center;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
-/* box */
-div.box{
-    background-color: dodgerblue;
-    padding: 50px;
+/* box intro */
+div.introbox{
+    background-color: #f5efffff;
+    padding: 80px;
     margin-bottom: 30px;
+    width: 600px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* box */
+div.boxh{
+    background-color: #f5efffff;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 80px;
+    width: 600px;
+    height: 200px;
+    gap: 10px;
+    display: flex;
+}
+
+div.boxv {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div.boxh{
+    
 }
 
 p.intro{}
 
-h3{}
+h3{
+    margin-bottom: 30px;
+}
 
-p.bildtext{}
+p.bildtext{
+    margin-right: 30px;
+    
+}
 
-img{}
+p.bildtext1{
+
+}
+
+div.img1{
+    width: auto;
+    height: auto;
+}
+
+img{
+    width: 40%;
+    height: auto;
+    margin-right: 30px;
+}
+
+.right{
+    
+}
