@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -12,4 +14,63 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* Sidans utseende */
+body{
+    background-color: darkblue;
+}
+.kontainer{
+    background-color: ghostwhite;
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+}
+
+/* Sidohuv utseende */
+header{
+    h1{
+          font-family: "Jaro", sans-serif;
+          font-size: 60px;
+          text-align: center;
+    }
+    nav{
+        text-align: center;
+        margin-top: 20px;
+        a{
+            background-color: cornflowerblue;
+            text-decoration: none;
+            padding: 10px;
+            color: aliceblue;
+            max-width: 100px;
+        }
+        a:hover{
+            background-color: crimson;
+        }
+        a.aktiv{
+            background-color: crimson;
+        }
+    }
+}
+
+main{
+    h2{
+        text-align: center;
+        margin-top: 20px;
+    }
+    figure{
+        width: 400px;
+        padding: 20px;
+        background-color: cornflowerblue;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        img{}
+        figcaption{}
+        p{}
+    }
+}
+
+footer{
+    p{}
 }

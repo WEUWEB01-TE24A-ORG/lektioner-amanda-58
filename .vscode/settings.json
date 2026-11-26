@@ -31,5 +31,9 @@
     "angelo-breuer.clock": true,
     "GitHub.copilot": false
   },
-  "chat.disableAIFeatures": true
+"chat.disableAIFeatures": true,
+"editor.tokenColorCustomizations": {
+    "comments": "",
+    "textMateRules": []
+}
 }
